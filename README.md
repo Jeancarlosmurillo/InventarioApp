@@ -1,22 +1,34 @@
-# Sistema de Gestion de Inventario
+# Sistema de Gestión de Inventario
 
-Proyecto del curso **Fundamentos de .NET** 
+Aplicación de consola en **C# / .NET 8** para gestionar un inventario de productos (operaciones CRUD en memoria). Proyecto del curso **Fundamentos de .NET**.
 
 ## Requisitos
-- .Net 10 SDK
 
-## Como ejecutar
-```
+- .NET 8 SDK
+
+## Cómo ejecutar
+
+```bash
+cd InventarioApp
 dotnet run
 ```
 
+## Funcionalidades
+
+- Listar productos
+- Agregar producto (nombre, precio, cantidad) con validaciones
+- Actualizar la cantidad de un producto
+- Eliminar un producto
+- Calcular el valor total del inventario
+
 ## Estructura del proyecto
 
+```
 InventarioApp/
-- Program.cs # Punto de entrada
-- InventarioApp.csproj # Configuracion
-- .gitignore # Archivos ignorados por Git
-- src/
-
-## Progreso del curso
-- [x] Modulo 1: El ecosistema .NET
+├── Inventario.sln
+└── InventarioApp/
+    ├── Program.cs                     # Punto de entrada y menú de consola
+    ├── Models/Producto.cs             # Entidad Producto
+    ├── Services/InventarioService.cs  # Lógica del inventario
+    └── InventarioApp.csproj           # Configuración del proyecto
+```

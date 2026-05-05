@@ -6,10 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
  
-<AssemblyName>InventarioApp</AssemblyName>
-<Rootnamespace>InventarioApp</Rootnamespace>
-<Version>1.0.0</Version>
-<Descripcion> Sistema de gestion de inventario con .NET</Descripcion>
- </PropertyGroup>
+    <AssemblyName>InventarioApp</AssemblyName>
+    <RootNamespace>InventarioApp</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Sistema de gestion de inventario con .NET</Description>
+  </PropertyGroup>
  
 </Project>
